@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(153,153,153,1);
+    margin: 0;
+    font-family: sans-serif;
+}
+.form_input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+form {
+    background-color: rgba(119,119,119,1);
+    padding: 20px;
+    width: 400px;
+    margin: .5em auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: none;
+    border-left: 3px solid #333;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #333;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+fieldset {
+    margin: 20px;
+    border: none ;
+    border-left: 2px solid #333;
+    border-top: 2px solid #333;
+    border-radius: 2px;
+}
