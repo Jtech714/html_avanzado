@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: #999f;
     margin: 0;
 }
 h2 {
@@ -7,11 +7,12 @@ h2 {
     font-family: sans-serif;
     margin: 0;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 form {
-    background-color: #ededed;
+    background-color: #777f;
     padding: 20px 0;
-    max-width: 500px;
+    width: 500px;
     margin: auto;
     box-shadow: 0px 0px 10px #0002;
     margin-top: 50px;
@@ -24,5 +25,17 @@ input {
     box-sizing: border-box;
     padding: 6px 12px;
     border: none;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #111f;
+}
+textarea {
+    min-width: 100%;
+    min-height: 30px;
+    max-height: 200px;
+    resize: vertical;
+    font-family: sans-serif;
+    border: none;
+    border-left: 2px solid #111f;
+    box-sizing: border-box;
+    
+
 }
