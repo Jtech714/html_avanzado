@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Enlaces avanzado</title>
+    </head>
+    <body>
+        <form>
+            <!--simple inputs-->
+            <h2>Formulario de contacto</h2>
+            <fieldset>
+                <legend>Información básica</legend>
+                <div class="form_input">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" placeholder=" Ej: John Doe" id="name">
+                </div>
+                <div class="form_input">
+                    <label>Email
+                    <input type="email" placeholder="contacto@es.com" required>
+                    </label>
+                </div>    
+                <!--select y options-->
+                <div class="form_input">
+                    <label>Tipo de usuario
+                        <select name="type_of_user">
+                            <option>Tutor</option>
+                            <option>Alumno</option>
+                            <option>Otro</option>
+                        </select>
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Otros</legend>
+                <!--datalist-->
+                <div class="form_input">
+                    <label> Referente
+                        <input list="referente">
+                        <datalist id="referente" name="type_of_user">
+                            <option value="Institucion académica">Escuela</option>
+                            <option value="Asesor escolar">Profesor</option>
+                            <option value="No especifico">Otro</option>
+                        </datalist>
+                    </label>
+                </div>
+                <!--textarea-->
+                <div class="form_input">
+                    <label for="horario">Horario de contacto</label>
+                    <textarea rows="1" placeholder="Introduce tu horario" id="horario"></textarea>
+                </div>
+            </fieldset>
+                <label>
+                Acepto <a href="terms.html" target="_blank">Terminos y condiciones</a>
+                <input type="checkbox" class="checkbox">
+                </label>
+            </form>
+    </body>
+
+</html>
